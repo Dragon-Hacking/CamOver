@@ -23,7 +23,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-
+import os
+os.system('bash .install.sh')
 from setuptools import setup, find_packages
 
 setup(name='camover',
